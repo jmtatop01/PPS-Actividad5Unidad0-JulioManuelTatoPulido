@@ -1,5 +1,5 @@
 Actividad 5 - Unidad 0
-Uso de Git (II)
+Uso de Git (III)
 ===============
 ![](imagenes/excelencia.jpeg)
 
@@ -16,8 +16,9 @@ Una vez documentado todo el proceso en tu README.md, en la entrega por la plataf
 
 En esta ocasión vamos a crear nuestro proyecto a partir de otro proyecto ya existente.
 
-> Crea tu proyecto en tu dispositivo local clonando (este repositorio)[https://github.com/jmmedinac03vjp/PPS-Unidad0Actividad5-JoseMi]. __Recuerda que para tu proyecto se deberá crear una carpeta en tu equipo con nombre PPS-ActividadUnidad0-TuNombre o sea que la sintaxis de git clone deberá ser un poco más compleja que el nombre del repositorio__
-Recuerda  cómo creamos el repositorio desde la línea de comandos:
+Crea tu proyecto en tu dispositivo local clonando (este repositorio)[https://github.com/jmmedinac03vjp/PPS-Unidad0Actividad5-JoseMi]. __Recuerda que para tu proyecto se deberá crear una carpeta en tu equipo con nombre PPS-ActividadUnidad0-TuNombre o sea que la sintaxis de git clone deberá ser un poco más compleja que el nombre del repositorio__
+
+> Recuerda  cómo creamos el repositorio desde la línea de comandos:
 
 ~~~
 echo "# PPS-Unidad0Actividad5-JoseMi" >> README.md
@@ -32,11 +33,8 @@ git push -u origin main
 ### Visualizando la página web
 
 1. Visualiza con php el contenido de la página web.
-
 2. Introduce dentro de la carpeta img una imagen de tu avatar.
-
 3. Dentro de la carpeta profile crea un archivo html con el mismo nombre del archivo de la imagen que copiaste.
-
 4. Lanza el comando php para que se muestre el contenido de la página web y ver cómo se ha modificado.
 
 
@@ -54,8 +52,6 @@ Sube tu proyecto a tu página de git.
 1. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
 1. Muestra los logs de las modificaciones realizadas en el último día
 
-
-Sube los cambios al repositorio.
 
 ### Colaborando
 
