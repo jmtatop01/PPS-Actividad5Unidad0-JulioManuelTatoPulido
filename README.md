@@ -36,6 +36,7 @@ git push -u origin main
 
 1. Mirá tus remotos.
 
+
 ### Visualizando la página web
 
 1. Visualiza con php el contenido de la página web.
@@ -48,19 +49,8 @@ Modifica archivos y trabaja con desahacer cambios, volver a estado anterior, dif
 Investiga la diferente información podemos ver con git log
 Sube tu proyecto a tu página de git.
 
-# Erre que erre con Git Logs
-
->Repasemos git logs
-
-1. Muestra los logs
-2. Muestra los logs de los últimos 3 commits
-1. Muestra los logs utilizando el modificador ``--pretty`
-1. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
-1. Muestra los logs de las modificaciones realizadas en el último día
-
-
 ### Colaborando
-
+> Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Repositorio, apartado _Collaborators_. Éstos podrán realizar cambios en él. !()[imagenes/colaboradores.png]
 1. Comparte tu proyecto con al menos dos compañeros.
 1. En cada uno de los proyectos  de tus compañeros añade una nueva rama con tu nombre.
 1. Añade en esa rama tus archivos de usuario (foto y profile).
@@ -72,6 +62,17 @@ Sube tu proyecto a tu página de git.
 1. Sincroniza en local la rama main. (puedes comprobar qué compañeros han subido datos lanzando la aplicación web con php).
 1. Añade en ella tus archivos de usuario (foto y profile).
 1. Sube los cambios a la rama main.
+
+# Erre que erre con Git Logs
+
+>Repasemos git logs
+
+1. Muestra los logs
+2. Muestra los logs de los últimos 3 commits
+1. Muestra los logs utilizando el modificador ``--pretty`
+1. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
+1. Muestra los logs de las modificaciones realizadas en el último día
+
 
 ### Entrega
 
