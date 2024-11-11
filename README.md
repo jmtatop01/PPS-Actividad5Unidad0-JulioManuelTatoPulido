@@ -30,6 +30,12 @@ git remote add origin git@github.com:jmmedinac03vjp/PPS-Unidad0Actividad5-JoseMi
 git push -u origin main
 ~~~
 
+### Viendo los remotos
+
+> Con ``git remote -v` podemos ver los repositorios remotos que tenemos configurados.
+
+1. Mirá tus remotos.
+
 ### Visualizando la página web
 
 1. Visualiza con php el contenido de la página web.
