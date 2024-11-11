@@ -17,6 +17,17 @@ Una vez documentado todo el proceso en tu README.md, en la entrega por la plataf
 En esta ocasión vamos a crear nuestro proyecto a partir de otro proyecto ya existente.
 
 > Crea tu proyecto en tu dispositivo local clonando (este repositorio)[https://github.com/jmmedinac03vjp/PPS-Unidad0Actividad5-JoseMi]. __Recuerda que para tu proyecto se deberá crear una carpeta en tu equipo con nombre PPS-ActividadUnidad0-TuNombre o sea que la sintaxis de git clone deberá ser un poco más compleja que el nombre del repositorio__
+Recuerda  cómo creamos el repositorio desde la línea de comandos:
+
+~~~
+echo "# PPS-Unidad0Actividad5-JoseMi" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:jmmedinac03vjp/PPS-Unidad0Actividad5-JoseMi.git
+git push -u origin main
+~~~
 
 ### Visualizando la página web
 
