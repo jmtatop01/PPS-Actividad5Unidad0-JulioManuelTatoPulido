@@ -11,26 +11,55 @@ En esta ocasión vamos a trabajar de manera colaborativa.
 El producto a realizar será la creación un repositorio (con nombre PPSUnidad0Actividad5TuNombre) en la [plataforma de GitHub](https://github.com/)  que contenga un conjunto de archivos donde tendremos archivos de documentación de todo el proceso realizado (en formato .md) junto con el resto de archivos necesarios, imágenes, etc...
 
 Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma, pega el enlace a tu repositorio de github.com
+
 ### Creación del repositorio
+
 En esta ocasión vamos a crear nuestro proyecto a partir de otro proyecto ya existente.
 
-> Clona el proyecto Clona el repositorio https://github.com/jmmedinac03vjp/pps0-1
+> Crea tu proyecto en tu dispositivo local clonando (este repositorio)[https://github.com/jmmedinac03vjp/PPS-Unidad0Actividad5-JoseMi]. __Recuerda que para tu proyecto se deberá crear una carpeta en tu equipo con nombre PPS-ActividadUnidad0-TuNombre o sea que la sintaxis de git clone deberá ser un poco más compleja que el nombre del repositorio__
 
-Visualiza con php el contenido de la página web.
+### Visualizando la página web
 
-Introduce dentro de la carpeta img una imagen de tu avatar.
+1. Visualiza con php el contenido de la página web.
 
-Dentro de la carpeta profile crea un archivo html con el mismo nombre del archivo de la imagen que copiaste.
+2. Introduce dentro de la carpeta img una imagen de tu avatar.
 
-Lanza el comando php para que se muestre el contenido de la página web y ver cómo se ha modificado.
+3. Dentro de la carpeta profile crea un archivo html con el mismo nombre del archivo de la imagen que copiaste.
 
-Clona el repositorio https://github.com/jmmedinac03vjp/pps0-1 Deberá crear una carpeta en tu equipo con nombre PPS-ActividadUnidad0-TuNombre
+4. Lanza el comando php para que se muestre el contenido de la página web y ver cómo se ha modificado.
+
 
 Modifica archivos y trabaja con desahacer cambios, volver a estado anterior, diferencias entre ficheros, borrar ficheros etc. git checkout, git reset, git diff, git rm...
 Investiga la diferente información podemos ver con git log
 Sube tu proyecto a tu página de git.
-Comparte tu proyecto con al menos dos compañeros.
-Con el proyecto  de tus compañeros Añade una nueva rama, la modificas y subes los cambios.
-Comprueba si tienes acceso al proyecto del profesor: https://github.com/jmmedinac03vjp/pps0-1 si no es así envíale un correo con tu usuario de github para que te añada como colaborador.
-clona el repositorio y añade a él tus archivos de usuario (foto y profile)
+
+# Erre que erre con Git Logs
+
+>Repasemos git logs
+
+1. Muestra los logs
+2. Muestra los logs de los últimos 3 commits
+1. Muestra los logs utilizando el modificador ``--pretty`
+1. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
+1. Muestra los logs de las modificaciones realizadas en el último día
+
+
 Sube los cambios al repositorio.
+
+### Colaborando
+
+1. Comparte tu proyecto con al menos dos compañeros.
+1. En cada uno de los proyectos  de tus compañeros añade una nueva rama con tu nombre.
+1. Añade en esa rama tus archivos de usuario (foto y profile).
+1. Sube los cambios de tu rama.
+
+> Ahora vamos a hacer modificaciones en la rama main de tus compañeros. Es importante que el tiempo entre el push y el pull sea pequeño, ya que si en ese tiempo hay modificaciones por parte de otro colaborador, es posible que haya inconsistencias, en cuyo caso tendremos que utilizar git merge.
+
+1. Cambiate a la rama main de los proyectos de tus compañeros
+1. Sincroniza en local la rama main. (puedes comprobar qué compañeros han subido datos lanzando la aplicación web con php).
+1. Añade en ella tus archivos de usuario (foto y profile).
+1. Sube los cambios a la rama main.
+
+### Entrega
+
+> Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma, pega el enlace a tu repositorio de github.com
