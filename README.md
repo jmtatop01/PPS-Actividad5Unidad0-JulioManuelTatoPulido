@@ -3,11 +3,16 @@ Uso de Git (III)
 ===============
 ![](imagenes/excelencia.jpeg)
 
-[Creación del repositorio](#Creación del repositorio)
+[#Creación-del-repositorio]()
+
 [Viendo los remotos](#Viendo los remotos)
+
 [Visualizando la página web](#Visualizando la página web)
+
 [Colaborando](#Colaborando)
+
 [Git logs](#Erre que erre con Git Logs)
+
 [Entrega](#Entrega)
 ---
 
