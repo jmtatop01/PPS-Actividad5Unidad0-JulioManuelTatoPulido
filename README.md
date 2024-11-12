@@ -3,20 +3,21 @@ Uso de Git (III)
 ===============
 ![](imagenes/excelencia.jpeg)
 
-[Creación-del-repositorio]()
+[Creación del repositorio](#Creación-del-repositorio)
 
-[Viendo los remotos](#Viendo los remotos)
+[Viendo los remotos](#Viendo-los-remotos)
 
-[Visualizando la página web](#Visualizando la página web)
+[Visualizando la página web](#Visualizando-la-página-web)
 
 [Colaborando](#Colaborando)
 
-[Git logs](#Erre que erre con Git Logs)
+[Git logs](#Erre-que-erre-con-Git-Logs)
 
 [Entrega](#Entrega)
 ---
 
 Tercera y última actividad en la que trabajamos con Git.
+
 En esta ocasión vamos a trabajar de manera colaborativa.
 
 El producto a realizar será la creación un repositorio (con nombre PPSUnidad0Actividad5TuNombre) en la [plataforma de GitHub](https://github.com/)  que contenga un conjunto de archivos donde tendremos archivos de documentación de todo el proceso realizado (en formato .md) junto con el resto de archivos necesarios, imágenes, etc...
@@ -59,7 +60,7 @@ git push -u origin main
 
 ### Colaborando
 
-> Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Repositorio, apartado _Collaborators_. Éstos podrán realizar cambios en él. !()[imagenes/colaboradores.png]
+> Podemos añadir colaboradores en nuestro proyecto desde la ___Configuración___ del Repositorio, apartado ___Collaborators___. Éstos podrán realizar cambios en él. ![](imagenes/colaboradores.png)
 
 1. Comparte tu proyecto con al menos dos compañeros.
 1. Para cada uno de los proyectos  de tus compañeros:
@@ -80,8 +81,8 @@ git push -u origin main
 1. Sube los cambios a la rama main de los repositorios de tus compañeros.
 1. Vuelve a tu repositorio.
 1. Comprueba en qué rama te encuentras.
-1. Comprueba que tus compañeros hayan creado sus ramas en tu repositorio (``git branch`). Si no es así...!!!! échales una mano, hombre¡¡¡¡¡
-1. Comprueba con ``git diff` las diferencias existentes entre las ramas Main y las de tus compañeros
+1. Comprueba que tus compañeros hayan creado sus ramas en tu repositorio (``git branch``). Si no es así...!!!! échales una mano, hombre¡¡¡¡¡
+1. Comprueba con ``git diff`` las diferencias existentes entre las ramas Main y las de tus compañeros
 
 ### Erre que erre con Git Logs
 
@@ -89,7 +90,7 @@ git push -u origin main
 
 1. Muestra los logs
 2. Muestra los logs de los últimos 3 commits
-1. Muestra los logs utilizando el modificador ``--pretty`
+1. Muestra los logs utilizando el modificador ``--pretty``
 1. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
 1. Muestra los logs de las modificaciones realizadas en el último día
 
@@ -99,5 +100,5 @@ git push -u origin main
 > Intenta coordinarte con tus compañeros y, a ser posible, realiza la entrega una vez que ellos hayan hecho las modificaciones oportunas en tu repositorio.
 > Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma tendrás que entregar por duplicado:
 > + En la sección de Editor de la entrega, pega el enlace a tu repositorio de github.com
-> + En la sección de archivos adjuntos, envía comprimido la carpeta local de tu repositorio.!(Puedes verlo aquí)[imagenes/Entrega.png
+> + En la sección de archivos adjuntos, envía comprimido la carpeta local de tu repositorio.![Puedes verlo aquí](imagenes/Entrega.png)
 
