@@ -3,12 +3,12 @@ Uso de Git (III)
 ===============
 ![](imagenes/excelencia.jpeg)
 
-[][#Creación del repositorio]
-[][#Viendo los remotos]
-[][#Visualizando la página web]
-[][#Colaborando]
-[][#Erre que erre con Git Logs]
-[][#Entrega]
+[#Creación del repositorio]()
+[](#Viendo los remotos)
+[](#Visualizando la página web)
+[](#Colaborando)
+[](#Erre que erre con Git Logs)
+[](#Entrega)
 ---
 
 Tercera y última actividad en la que trabajamos con Git.
@@ -51,9 +51,6 @@ git push -u origin main
 4. Lanza el comando php para que se muestre el contenido de la página web y ver cómo se ha modificado.
 
 
-Modifica archivos y trabaja con desahacer cambios, volver a estado anterior, diferencias entre ficheros, borrar ficheros etc. git checkout, git reset, git diff, git rm...
-Investiga la diferente información podemos ver con git log
-Sube tu proyecto a tu página de git.
 
 ### Colaborando
 
@@ -65,6 +62,7 @@ Sube tu proyecto a tu página de git.
 	1. Clona el repositorio (Recuerda que tendrás que crear una carpeta nueva para él).
 	1. Añade una nueva rama con tu nombre.
 	1. Cámbiate a la rama que has creado.
+	1. Comprueba en que rama te encuentras (git status te dá la información).
 	1. Mira los remotos que tienes configurados.
 	1. Añade en esa rama tus archivos de usuario (foto y profile).
 	1. Sube los cambios de tu rama al repositorio remoto y comprueba que puedes verlos en la web.
@@ -74,7 +72,11 @@ Sube tu proyecto a tu página de git.
 1. Cambiate a la rama main de los proyectos de tus compañeros
 1. Sincroniza en local la rama main. (puedes comprobar qué compañeros han subido datos lanzando la aplicación web con php).
 1. Añade en ella tus archivos de usuario (foto y profile).
-1. Sube los cambios a la rama main de los repositorios de tus compañeros..
+1. Sube los cambios a la rama main de los repositorios de tus compañeros.
+1. Vuelve a tu repositorio.
+1. Comprueba en qué rama te encuentras.
+1. Comprueba que tus compañeros hayan creado sus ramas en tu repositorio (``git branch`). Si no es así...!!!! échales una mano, hombre¡¡¡¡¡
+1. Comprueba con ``git diff` las diferencias existentes entre las ramas Main y las de tus compañeros
 
 ### Erre que erre con Git Logs
 
