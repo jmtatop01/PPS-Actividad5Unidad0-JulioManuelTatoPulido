@@ -61,7 +61,9 @@ git push -u origin main
 
 ### Colaborando
 
-> Podemos añadir colaboradores en nuestro proyecto desde la ___Configuración___ del Repositorio, apartado ___Collaborators___. Éstos podrán realizar cambios en él. ![](imagenes/colaboradores.png)
+> Podemos añadir colaboradores en nuestro proyecto desde la ___Configuración___ del Repositorio, apartado ___Collaborators___. Éstos podrán realizar cambios en él. 
+
+![Aquí se muestra la configuración de colaboradores](imagenes/colaboradores.png)
 
 1. Comparte tu proyecto con al menos dos compañeros.
 1. Para cada uno de los proyectos  de tus compañeros:
@@ -102,5 +104,6 @@ git push -u origin main
 > Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma tendrás que entregar por duplicado:
 > + En la sección de Editor de la entrega, pega el enlace a tu repositorio de github.com
 > + En la sección de archivos adjuntos, envía comprimido la carpeta local de tu repositorio.
+
 ![Puedes verlo aquí](imagenes/Entrega.png)
 
