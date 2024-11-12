@@ -101,5 +101,6 @@ git push -u origin main
 > Intenta coordinarte con tus compañeros y, a ser posible, realiza la entrega una vez que ellos hayan hecho las modificaciones oportunas en tu repositorio.
 > Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma tendrás que entregar por duplicado:
 > + En la sección de Editor de la entrega, pega el enlace a tu repositorio de github.com
-> + En la sección de archivos adjuntos, envía comprimido la carpeta local de tu repositorio.![Puedes verlo aquí](imagenes/Entrega.png)
+> + En la sección de archivos adjuntos, envía comprimido la carpeta local de tu repositorio.
+![Puedes verlo aquí](imagenes/Entrega.png)
 
