@@ -3,6 +3,12 @@ Uso de Git (III)
 ===============
 ![](imagenes/excelencia.jpeg)
 
+[][#Creación del repositorio]
+[][#Viendo los remotos]
+[][#Visualizando la página web]
+[][#Colaborando]
+[][#Erre que erre con Git Logs]
+[][#Entrega]
 ---
 
 Tercera y última actividad en la que trabajamos con Git.
@@ -50,20 +56,27 @@ Investiga la diferente información podemos ver con git log
 Sube tu proyecto a tu página de git.
 
 ### Colaborando
+
 > Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Repositorio, apartado _Collaborators_. Éstos podrán realizar cambios en él. !()[imagenes/colaboradores.png]
+
 1. Comparte tu proyecto con al menos dos compañeros.
-1. En cada uno de los proyectos  de tus compañeros añade una nueva rama con tu nombre.
-1. Añade en esa rama tus archivos de usuario (foto y profile).
-1. Sube los cambios de tu rama.
+1. Para cada uno de los proyectos  de tus compañeros:
+	1. Acepta la invitación de colaboración en su repositorio.
+	1. Clona el repositorio (Recuerda que tendrás que crear una carpeta nueva para él).
+	1. Añade una nueva rama con tu nombre.
+	1. Cámbiate a la rama que has creado.
+	1. Mira los remotos que tienes configurados.
+	1. Añade en esa rama tus archivos de usuario (foto y profile).
+	1. Sube los cambios de tu rama al repositorio remoto y comprueba que puedes verlos en la web.
 
 > Ahora vamos a hacer modificaciones en la rama main de tus compañeros. Es importante que el tiempo entre el push y el pull sea pequeño, ya que si en ese tiempo hay modificaciones por parte de otro colaborador, es posible que haya inconsistencias, en cuyo caso tendremos que utilizar git merge.
 
 1. Cambiate a la rama main de los proyectos de tus compañeros
 1. Sincroniza en local la rama main. (puedes comprobar qué compañeros han subido datos lanzando la aplicación web con php).
 1. Añade en ella tus archivos de usuario (foto y profile).
-1. Sube los cambios a la rama main.
+1. Sube los cambios a la rama main de los repositorios de tus compañeros..
 
-# Erre que erre con Git Logs
+### Erre que erre con Git Logs
 
 >Repasemos git logs
 
@@ -76,4 +89,8 @@ Sube tu proyecto a tu página de git.
 
 ### Entrega
 
-> Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma, pega el enlace a tu repositorio de github.com
+> Intenta coordinarte con tus compañeros y, a ser posible, realiza la entrega una vez que ellos hayan hecho las modificaciones oportunas en tu repositorio.
+> Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma tendrás que entregar por duplicado:
+> + En la sección de Editor de la entrega, pega el enlace a tu repositorio de github.com
+> + En la sección de archivos adjuntos, envía comprimido la carpeta local de tu repositorio.!(Puedes verlo aquí)[imagenes/Entrega.png
+
