@@ -3,7 +3,7 @@ Uso de Git (III)
 ===============
 ![](imagenes/excelencia.jpeg)
 
-[#Creación-del-repositorio]()
+[Creación-del-repositorio]()
 
 [Viendo los remotos](#Viendo los remotos)
 
