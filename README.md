@@ -23,7 +23,7 @@ En esta ocasión vamos a trabajar de manera colaborativa.
 
 El producto a realizar será la creación un repositorio (con nombre PPSUnidad0Actividad5TuNombre) en la [plataforma de GitHub](https://github.com/)  que contenga un proyecto php por el cual podemos visualizar una foto y descripción de los diferentes usuarios, junto con los archivos de documentación de todo el proceso realizado (en formato .md) y el resto de archivos necesarios, imágenes, etc...
 
-Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma, pega el enlace a tu repositorio de github.com
+Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma, pega el enlace a tu repositorio de github.com y adjunta la carpeta de tu repositorio comprimida.
 
 ### Creación del repositorio
 
