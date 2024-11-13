@@ -1,5 +1,5 @@
 <body>
-	<h1>Projecte Welcome1</h1>
+	<h1>Welcome to the branch of JcMartin</h1>
 	<ul>
 
 	<?php 
@@ -7,9 +7,9 @@
         foreach( $imgs as $img ) {
             if( $img=="." || $img==".." )
                 continue;
-            if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-3)=="jpeg" ){
+            if( substr($img,-3)=="jpg" or substr($img,-3)=="png" ){
                 $name = substr($img,0,-4);
-            }else if (substr($img,-4)=="jpeg") {
+            }else if (substr($img,-4)=="jpeg" or substr($img,-4) == "webp")  {
                 $name = substr($img,0,-5);
             }
             echo "<a href='profile/$name.html'>";
