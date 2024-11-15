@@ -43,13 +43,13 @@ Una vez hecho eso, nos descargamos una imagen de perfil de nuestro GitHub, que g
 Cuando lo hayamos configurado, ejecutaremos el comando ``php -S 0:8080`` para que se pueda visualizar en nuestro navegador.
 
 
-[]!(/imagenes/1.png)
+[]!(imagenes/1.png)
 
 
 Una vez que nos encontramos en esa página, si pulsamos en el nombre, podemos irnos a nuestro “.html” que hemos modificado anteriormente.
 
 
-[]!(/imagenes/2.png)
+[]!(imagenes/2.png)
 
 
 ##  Colaboración con compañeros
@@ -58,7 +58,7 @@ Una vez que nos encontramos en esa página, si pulsamos en el nombre, podemos ir
 Una vez realizada la  configuración anterior, nos fijamos en la participación entre los compañeros de clase, en este caso tenemos que compartir nuestro repositorio con nuestros compañeros.
 
 
-[]!(/imagenes/3.png)
+[]!(imagenes/3.png)
 
 
 Una vez invitado a nuestros compañeros, tienen que crear ramas en mi repositorio para que aparezcan sus imágenes y sus “.html” y poder así simular un trabajo colaborativo.
@@ -70,52 +70,52 @@ Una vez invitado a nuestros compañeros, tienen que crear ramas en mi repositori
 Voy a realizar una documentación solo de un compañero, ya que el proceso es el mismo en los demás repositorios. Para empezar me he clonado el repositorio de mi compañero Juan Carlos:
 
 
-[]!(/imagenes/4.png)
+[]!(imagenes/4.png)
 
 
 Una vez en el repositorio de mi compañero me he creado una rama llamada “Vers-jmtato” con el comando ``git branch Vers-jmtato``.
 
 
-[]!(/imagenes/5.png)
+[]!(imagenes/5.png)
 
 
 Me he metido en la rama que he creado con el comando ``git checkout Vers-jmtato``.
 
 
-[]!(/imagenes/6.png)
+[]!(imagenes/6.png)
 
 
 Y desde ahí incluyendo en la carpeta “img” mi foto de perfil llamándose igual que el “.html”.
 
 
-[]!(/imagenes/7.png)
+[]!(imagenes/7.png)
 
 
 Después, ejecuto el comando ``php -S 0:8080``, para poder visualizarlo desde la página, introduciendo la dirección en el navegador:
 
 
-[]!(/imagenes/8.png)
+[]!(imagenes/8.png)
 
 
 Y si nos metemos en el enlace de mi perfil, nos redireccionará a mi “.html” con la información aportada, que también he introducido en la carpeta “profile”.
 
 
-[]!(/imagenes/9.png)
+[]!(imagenes/9.png)
 
 
 Luego, para que se guardase en el repositorio remoto de mi compañero he seguido los siguientes comandos:
 
 
-[]!(/imagenes/10.png)
+[]!(imagenes/10.png)
 
 
-[]!(/imagenes/11.png)
+[]!(imagenes/11.png)
 
 
 A continuación, me he metido en el repositorio remoto de mi compañero para comprobar que he subido correctamente los cambios realizados:
 
 
-[]!(/imagenes/12.png)
+[]!(imagenes/12.png)
 
 
 Después he copiado lo mismo que he añadido en mi rama, a la rama principal, para que también se pueda ver desde ahí, siguiendo también los mismos comandos que he hecho en mi rama.
@@ -127,10 +127,10 @@ Después he copiado lo mismo que he añadido en mi rama, a la rama principal, pa
 Quedando así la colocación de la rama main de mi repositorio remoto después de los cambios de mis compañeros en él.
 
 
-[]!(/imagenes/13.png)
+[]!(imagenes/13.png)
 
 
 Y también como ha quedado la página web de los perfiles:
 
 
-[]!(/imagenes/14.png)
+[]!(imagenes/14.png)
