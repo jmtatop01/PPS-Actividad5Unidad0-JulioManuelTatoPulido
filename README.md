@@ -1,105 +1,136 @@
-Actividad 5 - Unidad 0
-Uso de Git (III)
-===============
-![](imagenes/excelencia.jpeg)
+## Copiado del repositorio
 
-[Creación del repositorio](#Creación-del-repositorio)
 
-[Viendo los remotos](#Viendo-los-remotos)
+Para empezar a hacer el repositorio, copiaremos el repositorio del profesor en nuestro Kali linux, pero necesitamos cambiar el nombre, por lo que tenemos que utilizar el siguiente comando:
 
-[Visualizando la página web](#Visualizando-la-página-web)
 
-[Colaborando](#Colaborando)
-
-[Git logs](#Erre-que-erre-con-Git-Logs)
-
-[Entrega](#Entrega)
-
----
-
-Tercera y última actividad en la que trabajamos con Git.
-
-En esta ocasión vamos a trabajar de manera colaborativa.
-
-El producto a realizar será la creación un repositorio (con nombre PPSUnidad0Actividad5TuNombre) en la [plataforma de GitHub](https://github.com/)  que contenga un proyecto php por el cual podemos visualizar una foto y descripción de los diferentes usuarios, junto con los archivos de documentación de todo el proceso realizado (en formato .md) y el resto de archivos necesarios, imágenes, etc...
-
-Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma, pega el enlace a tu repositorio de github.com y adjunta la carpeta de tu repositorio comprimida.
-
-### Creación del repositorio
-
-En esta ocasión vamos a crear nuestro proyecto a partir de otro proyecto ya existente.
-
-Crea tu proyecto en tu dispositivo local clonando [este repositorio](https://github.com/jmmedinac03vjp/PPS-Unidad0Actividad5-JoseMi). __Recuerda que para tu proyecto se deberá crear una carpeta en tu equipo con nombre PPS-ActividadUnidad0-TuNombre o sea que la sintaxis de git clone deberá ser un poco más compleja que el nombre del repositorio__
-
-> Recuerda  cómo creamos el repositorio desde la línea de comandos:
 ~~~
-echo "# PPS-Unidad0Actividad5-JoseMi" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:jmmedinac03vjp/PPS-Unidad0Actividad5-JoseMi.git
+https://github.com/jmmedinac03/PPS-Unidad0Actividad3-JoseMi.git PPS-Actividad5Unidad0-JulioManuelTatoPulido
+~~~
+
+
+Entramos a la carpeta con el comando ``cd PPS-Actividad5Unidad0-JulioManuelTatoPulido`` y eliminamos la conexión con el repositorio original con el siguiente comando:
+
+
+~~~
+git remote remove origin
+~~~
+
+
+A continuación, tenemos que agregar el nuevo repositorio como remote, sustituyendo al antiguo, con el siguiente comando:
+
+
+~~~
+git remote add origin git@github.com:jmtatop01/PPS-Actividad5Unidad0-JulioManuelTatoPulido
+~~~
+
+
+Finalmente para tener el repositorio totalmente copiado en nuestro Kali y en nuestro Github, lo subiremos, con el comando:
+
+
+~~~
 git push -u origin main
 ~~~
 
-### Viendo los remotos
 
-> Con ``git remote -v`` podemos ver los repositorios remotos que tenemos configurados.
-
-1. Mirá tus remotos.
-
-### Visualizando la página web
-
-1. Visualiza con php el contenido de la página web( ``php -S 0:8080``).
-2. Introduce dentro de la carpeta img una imagen de tu foto o avatar. El nombre del archivo debe de llevar como nombre tu nombre. 
-3. Dentro de la carpeta profile crea un archivo html con el mismo nombre del archivo de la imagen que copiaste en el punto anterior.
-4. Lanza el comando php para que se muestre el contenido de la página web y ver cómo se ha modificado.
-
-### Colaborando
-
-> Podemos añadir colaboradores en nuestro proyecto desde la ___Configuración___ del Repositorio, apartado ___Collaborators___. Éstos podrán realizar cambios en él. 
-
-![Aquí se muestra la configuración de colaboradores](imagenes/colaboradores.png)
-
-1. Comparte tu proyecto con al menos dos compañeros.
-1. Para cada uno de los proyectos  de tus compañeros:
-	1. Acepta la invitación de colaboración en su repositorio.
-	1. Clona el repositorio (Recuerda que tendrás que crear una carpeta nueva para él).
-	1. Añade una nueva rama con tu nombre(``git branch``).
-	1. Cámbiate a la rama que has creado(``git checkout``).
-	1. Comprueba en que rama te encuentras (``git`` status te dá la información).
-	1. Mira los remotos que tienes configurados.
-	1. Añade en esa rama tus archivos de usuario (foto y profile).
-	1. Sube los cambios de tu rama al repositorio remoto y comprueba que puedes verlos en la web.
-
-> Ahora vamos a hacer modificaciones en la rama main de tus compañeros. Es importante que el tiempo entre el push y el pull sea pequeño, ya que si en ese tiempo hay modificaciones por parte de otro colaborador, es posible que haya inconsistencias, en cuyo caso tendremos que utilizar ``git merge``.
-
-1. Cambiate a la rama main de los proyectos de tus compañeros
-1. Sincroniza en __local__ la rama __main__. (puedes comprobar qué compañeros han subido datos lanzando la aplicación web con php).
-1. Añade en ella tus archivos de usuario (foto y profile).
-1. Sube los cambios a la rama main de los repositorios de tus compañeros.
-1. Vuelve a tu repositorio.
-1. Comprueba en qué rama te encuentras.
-1. Comprueba que tus compañeros hayan creado sus ramas en tu repositorio (``git branch``). Si no es así...!!!! échales una mano, hombre¡¡¡¡¡
-1. Comprueba con ``git diff`` las diferencias existentes entre las ramas Main y las de tus compañeros
-
-### Erre que erre con Git Logs
-
->Repasemos git logs
-
-1. Muestra los logs
-2. Muestra los logs de los últimos 3 commits
-1. Muestra los logs utilizando el modificador ``--pretty``
-1. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
-1. Muestra los logs de las modificaciones realizadas en el último día
+## Configuración del repositorio
 
 
-### Entrega
+Ahora, modificaremos el repositorio empezando por que tenemos que borra su imagen de la carpeta “img”, borrar las imágenes de la carpeta “imágenes” con el comando ``rm`` y de la carpeta “profile” modificar el “.html” de nuestro profesor, para que aparezca nuestro nombre y nuestra información que queramos dar, con el comando ``nano``.
 
-> Intenta coordinarte con tus compañeros y, a ser posible, realiza la entrega una vez que ellos hayan hecho las modificaciones oportunas en tu repositorio.
-> Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma tendrás que entregar por duplicado:
-> + En la sección de ___Texto en línea___, pega el __enlace__ a tu repositorio de github.com
-> + En la sección de ___Archivos adjuntos___, envía __comprimida la carpeta local de tu repositorio__.
 
-![Puedes verlo aquí](imagenes/Entrega.png)
+Una vez hecho eso, nos descargamos una imagen de perfil de nuestro GitHub, que guardaremos en la carpeta “img”, poniendo el mismo nombre que a nuestro “.html”.
+Cuando lo hayamos configurado, ejecutaremos el comando ``php -S 0:8080`` para que se pueda visualizar en nuestro navegador.
 
+
+[]!(/imagenes/1.png)
+
+
+Una vez que nos encontramos en esa página, si pulsamos en el nombre, podemos irnos a nuestro “.html” que hemos modificado anteriormente.
+
+
+[]!(/imagenes/2.png)
+
+
+##  Colaboración con compañeros
+
+
+Una vez realizada la  configuración anterior, nos fijamos en la participación entre los compañeros de clase, en este caso tenemos que compartir nuestro repositorio con nuestros compañeros.
+
+
+[]!(/imagenes/3.png)
+
+
+Una vez invitado a nuestros compañeros, tienen que crear ramas en mi repositorio para que aparezcan sus imágenes y sus “.html” y poder así simular un trabajo colaborativo.
+
+
+##  Colaboración con un compañero
+
+
+Voy a realizar una documentación solo de un compañero, ya que el proceso es el mismo en los demás repositorios. Para empezar me he clonado el repositorio de mi compañero Juan Carlos:
+
+
+[]!(/imagenes/4.png)
+
+
+Una vez en el repositorio de mi compañero me he creado una rama llamada “Vers-jmtato” con el comando ``git branch Vers-jmtato``.
+
+
+[]!(/imagenes/5.png)
+
+
+Me he metido en la rama que he creado con el comando ``git checkout Vers-jmtato``.
+
+
+[]!(/imagenes/6.png)
+
+
+Y desde ahí incluyendo en la carpeta “img” mi foto de perfil llamándose igual que el “.html”.
+
+
+[]!(/imagenes/7.png)
+
+
+Después, ejecuto el comando ``php -S 0:8080``, para poder visualizarlo desde la página, introduciendo la dirección en el navegador:
+
+
+[]!(/imagenes/8.png)
+
+
+Y si nos metemos en el enlace de mi perfil, nos redireccionará a mi “.html” con la información aportada, que también he introducido en la carpeta “profile”.
+
+
+[]!(/imagenes/9.png)
+
+
+Luego, para que se guardase en el repositorio remoto de mi compañero he seguido los siguientes comandos:
+
+
+[]!(/imagenes/10.png)
+
+
+[]!(/imagenes/11.png)
+
+
+A continuación, me he metido en el repositorio remoto de mi compañero para comprobar que he subido correctamente los cambios realizados:
+
+
+[]!(/imagenes/12.png)
+
+
+Después he copiado lo mismo que he añadido en mi rama, a la rama principal, para que también se pueda ver desde ahí, siguiendo también los mismos comandos que he hecho en mi rama.
+
+
+## Comprobación de mi repositorio
+
+
+Quedando así la colocación de la rama main de mi repositorio remoto después de los cambios de mis compañeros en él.
+
+
+[]!(/imagenes/13.png)
+
+
+Y también como ha quedado la página web de los perfiles:
+
+
+[]!(/imagenes/14.png)
